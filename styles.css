@@ -1,0 +1,217 @@
+body {
+    min-height: calc(100vh - 10px);
+    overflow-x: hidden;
+    background-color: #1b1b1b;
+    text-align: center;
+    filter:grayscale(28%);
+}
+.rotate {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    position: absolute; 
+}
+.rotate:hover img, .rotate:focus img {
+    transform: rotate(4deg) scale(96%) translateY(-109px);
+    filter: saturate(177%);
+}
+.bag {
+    text-align: center;
+    display: block;
+    width: 73%;
+    margin: auto;
+    position: absolute;
+    transform: scale(0.94) translateY(-18%);
+    top: 38px;
+    left: -63px;
+}
+.title {
+    color: #bbad92;
+    line-height: 26px;
+    margin: 10px auto 0 auto;
+    width: fit-content;
+    padding: 10px;
+    text-wrap: balance;
+    text-align: center;
+    font-size: 16px;
+    transform: translateY(110%);
+    position: relative;
+    top: 363px;
+    left: 203px;
+    font-family: "Baskervville", serif;
+}
+h1 {
+    line-height: 1px;
+}
+.frog {
+    position: relative;
+    top: 354px;
+    left: 92px;
+}
+.baskervville-regular {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.baskervville-regular-italic {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.container2 {
+    width: 350px;
+    height: 354px;
+    margin: auto;
+    margin-top: -7px;
+    position: relative;
+    top: 115px;
+    left: -119px;
+}
+.aboutme {
+    color: #bbad92;
+    border: 1px solid #ffffff;
+    padding: 12px;
+    margin: 6px 0;
+    position: relative;
+    top: 220px;
+    text-align: left;
+    
+}
+.rotate2 {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    position: absolute;
+}
+.rotate2:hover img, .rotate2:focus img {
+    transform: rotate(4deg) scale(105%);
+    filter: saturate(177%);
+}
+.text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    font-size: 57px;
+    color: #f7f7f7;
+    text-shadow: #000000 2px 3px 7px;
+}
+.text:hover {
+    opacity: 1;
+    transform: rotate(3deg);
+}
+.textbig {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    font-size: 93px;
+    color: #f7f7f7;
+    text-shadow: #000000 2px 3px 7px;
+}
+.textbig:hover {
+    opacity: 1;
+    transform: rotate(3deg);
+}
+.textsmall {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    font-size: 44px;
+    color: #f7f7f7;
+    text-shadow: #000000 2px 3px 7px;
+}
+.textsmall:hover {
+    opacity: 1;
+    transform: rotate(3deg);
+}
+.textmed {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    font-size: 82px;
+    color: #f7f7f7;
+    text-shadow: #000000 2px 3px 7px;
+}
+.textmed:hover {
+    opacity: 1;
+    transform: rotate(3deg);
+}
+.extra {
+    text-align: right;
+    font-size: 20px;
+}
+h2 {
+    font-size: 34px;
+    line-height: 0;
+}
+.stamp {
+    position: absolute;
+    top: -20px;
+    left: 72px;
+    scale: 27%;
+}
+.mediadisc {
+    position: relative;
+    top: 8px;
+    left: 392px;
+    scale: 24%;
+}
+.journal {
+    position: relative;
+    top: 9px;
+    left: 145px;
+    scale: 49%;
+}
+.camera {
+    position: relative;
+    top: 214px;
+    left: 381px;
+    scale: 29%;
+}
+.notebook {
+    position: relative;
+    top: 260px;
+    left: 204px;
+    scale: 30%;
+}
+.common {
+    position: relative;
+    top: 168px;
+    left: -2px;
+    scale: 52%;
+}
+a {
+        color: #bbad92;
+}
